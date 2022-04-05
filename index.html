@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./src/img/calculator.png">
+    <script src="./scripts.js" async></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="logs">
+
+        <ul class="logs_windows">
+        </ul>
+
+        <div class="clear_button">
+            <button>CLEAR</button>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <div class="main-top">
+            <div id="close-buttons">
+                <button class="close">x</button>
+                <button class="minimize">-</button>
+                <button class="expand"></button>
+            </div>
+
+            <label id="check-label">
+                <input type="checkbox" id="checkbox">
+                <span></span>
+            </label>
+
+        </div>
+        <div class="output">
+            <div class="previous-operand"></div>
+            <div class="current-operand"></div>
+        </div>
+        <div class="numbers">
+            <div class='rows'>
+                <button data-clear-all id="buttonAllClear">CE</button>
+                <button data-sign id="buttonSign">±</button>
+                <button data-operator id="buttonModular">%</button>
+                <button data-operator id="buttonDivide">/</button>
+            </div>
+            <div class='rows'>
+                <button data-number id="number7">7</button>
+                <button data-number id="number8">8</button>
+                <button data-number id="number9">9</button>
+                <button data-operator id="buttonTimes">x</button>
+            </div>
+            <div class='rows'>
+                <button data-number id="number4">4</button>
+                <button data-number id="number5">5</button>
+                <button data-number id="number6">6</button>
+                <button data-operator id="buttonMinus">-</button>
+            </div>
+            <div class='rows'>
+                <button data-number id="number1">1</button>
+                <button data-number id="number2">2</button>
+                <button data-number id="number3">3</button>
+                <button data-operator id="buttonSum">+</button>
+            </div>
+            <div class='rows'>
+                <button data-number id="number0">0</button>
+                <button data-pointer id="period">.</button>
+                <button data-clear id="buttonClear">C</button>
+                <button data-equal id="buttonEqual">=</button>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
